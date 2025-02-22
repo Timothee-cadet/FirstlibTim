@@ -1,0 +1,41 @@
+---
+title: "rapport"
+format: "html"
+author: "Tim"
+params: 
+  code_commune: "44690"
+  code_departement: "44"
+---
+
+```{r}
+library(remotes)
+library(firstlibTim)
+
+data("data_exercice")
+
+# Paramètres
+code_commune <- params$code_commune
+code_departement <- params$code_departement
+
+# Commune
+df_commune <- data_exercice[
+  data_exercice$Code.de.la.commune == code_commune & 
+  data_exercice$Code.du.département == code_departement, ]
+
+if (nrow(df_commune) > 0) {
+  class(df_commune) <- c("commune", class(df_commune))
+  summary_commune(df_commune)
+  plot_commune(df_commune)
+}
+
+# Département
+df_departement <- data_exercice[
+  data_exercice$Code.du.département == code_departement, ]
+
+if (nrow(df_departement) > 0) {
+  class(df_departement) <- c("département", class(df_departement))
+  summary.departement(df_departement)
+  plot.departement(df_departement)
+}
+
+```
