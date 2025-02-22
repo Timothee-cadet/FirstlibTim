@@ -11,6 +11,7 @@ df_Loire_Atlantique <- data_exercice[data_exercice$Libellé.du.département== 'L
 df_Gers <- data_exercice[data_exercice$Libellé.du.département== 'Gers',]
 
 
+
 #' Jeu de données des élus de la commune de Nantes
 #'
 #' Ce dataset contient les informations sur les élus de la ville de Nantes contenant par exemple leur nom, prénom, date de naissance, catégorie socio-professionnelle, etc.
@@ -37,6 +38,7 @@ df_Gers <- data_exercice[data_exercice$Libellé.du.département== 'Gers',]
 #' }
 #' @source Données récupérées depuis le site data.gouv [https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/#/resources/d5f400de-ae3f-4966-8cb6-a85c70c6c24a]
 "df_Nantes"
+
 
 
 
