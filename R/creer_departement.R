@@ -57,7 +57,9 @@ creer_departement <- function(df) {
   )
 
   # Attribution de la classe 'departement'
-  class(departement) <- "departement"
+  class(departement) <- "département"
 
   return(departement)
 }
+
+creer_departement(df_Loire_Atlantique)

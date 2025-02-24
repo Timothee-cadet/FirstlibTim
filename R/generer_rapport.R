@@ -5,7 +5,7 @@
 #' rapport dans un dossier html.
 #'
 #' @param commune Un code de commune sous forme de chaîne de caractères (ex : "44109").
-#' @param departement Un code de département sous forme de chaîne de caractères (ex : "44").
+#' @param département Un code de département sous forme de chaîne de caractères (ex : "44").
 #' @param output Chemin de sortie du fichier HTML généré, sous forme de chaîne de caractères.
 #'
 #' @return un fichier html
@@ -14,7 +14,7 @@
 #' @examples
 #' \dontrun{
 #' generer_rapport(
-#'   commune = "44690",
+#'   commune = "44032",
 #'   departement = "44",
 #'   output = "rapport_nantes.html"
 #' )
@@ -34,3 +34,5 @@ generer_rapport <- function(commune, departement, output) {
     )
   )
 }
+
+

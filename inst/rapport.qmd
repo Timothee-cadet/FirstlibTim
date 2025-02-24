@@ -34,8 +34,7 @@ df_departement <- data_exercice[
 
 if (nrow(df_departement) > 0) {
   class(df_departement) <- c("département", class(df_departement))
-  summary.departement(df_departement)
-  plot.departement(df_departement)
+  summary_departement(df_departement)
+  plot_departement(df_departement)
 }
-
 ```
