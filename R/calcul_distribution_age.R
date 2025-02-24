@@ -11,7 +11,6 @@
 #'- Elle calcule l'âge en années à partir de la date de naissance.
 #'- Elle retourne les quantiles 0% (min), 25% (Q1), 50% (médiane), 75% (Q3) et 100% (max).
 #'- Les valeurs manquantes (`NA`) sont ignorées dans le calcul.
-#'@export
 
 calcul_distribution_age <- function(df) {
   # Vérification que la colonne 'Date.de.naissance' existe dans le DataFrame

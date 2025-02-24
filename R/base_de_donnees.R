@@ -127,3 +127,6 @@ df_Gers <- data_exercice[data_exercice$Libellé.du.département== 'Gers',]
 #' }
 #' @source Données récupérées depuis le site data.gouv [https://www.data.gouv.fr/fr/datasets/repertoire-national-des-elus-1/#/resources/d5f400de-ae3f-4966-8cb6-a85c70c6c24a]
 "df_Gers"
+
+
+

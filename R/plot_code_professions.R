@@ -8,7 +8,6 @@
 #'
 #' @return Cette fonction génère un graphique à barres horizontal affichant le nombre d'élus par code professionnel. Le graphique est tracé directement dans la sortie graphique de R sans nécessiter de librairies externes.
 #'
-#' @export
 plot_code_professions <- function(df) {
   # Vérification si la colonne nécessaire existe
   if (!"Code.de.la.catégorie.socio.professionnelle" %in% colnames(df)) {

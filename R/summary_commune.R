@@ -1,5 +1,6 @@
 #'@title Répartition des élus par code professionnel
 #'
+#'@name summary.commune
 #'@description
 #'Cette fonction génère un diagramme en barres représentant la distribution des élus municipaux en fonction de leur code professionnel.
 #'
@@ -20,5 +21,3 @@ summary.commune <- function(x) {
   cat("Prénom :", elu_plus_age$Prénom.de.l.élu, "\n")
   cat("Âge :", elu_plus_age$Âge, "\n")
 }
-
-

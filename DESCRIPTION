@@ -14,4 +14,5 @@ LazyData: true
 Suggests: 
     knitr,
     rmarkdown
-
+VignetteBuilder: quarto
+URL: https://timothee-cadet.github.io/FirstlibTim/

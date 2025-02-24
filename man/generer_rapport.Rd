@@ -9,9 +9,9 @@ generer_rapport(commune, departement, output)
 \arguments{
 \item{commune}{Un code de commune sous forme de chaîne de caractères (ex : "44109").}
 
-\item{departement}{Un code de département sous forme de chaîne de caractères (ex : "44").}
-
 \item{output}{Chemin de sortie du fichier HTML généré, sous forme de chaîne de caractères.}
+
+\item{département}{Un code de département sous forme de chaîne de caractères (ex : "44").}
 }
 \value{
 un fichier html
@@ -24,10 +24,9 @@ rapport dans un dossier html.
 \examples{
 \dontrun{
 generer_rapport(
-  commune = "44690",
+  commune = "44032",
   departement = "44",
   output = "rapport_nantes.html"
 )
 }
-
 }

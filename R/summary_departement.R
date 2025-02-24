@@ -1,6 +1,7 @@
-#' @title Résumé des caractéristiques d'un département
+#'@title Résumé des caractéristiques d'un département
 #'
-#' @description
+#'@name summary.departement
+#'@description
 #' Cette fonction fournit un résumé des informations concernant les élus municipaux d'un département.
 #' Elle affiche plusieurs statistiques clés, notamment :
 #' - Le nom du département.
@@ -9,10 +10,10 @@
 #' - L'élu.e le/la plus âgé.e et le/la plus jeune, ainsi que leur commune.
 #' - La commune avec la moyenne d'âge la plus faible et celle avec la moyenne la plus élevée.
 #'
-#' @param x Un objet de classe département, contenant les informations des élus municipaux du département.
-#' @return Un résumé textuel affiché dans la console avec les statistiques sur les élus du département.
+#'@param x Un objet de classe département, contenant les informations des élus municipaux du département.
+#'@return Un résumé textuel affiché dans la console avec les statistiques sur les élus du département.
 #'
-#' @details
+#'@details
 #' - La fonction vérifie d'abord que x est bien un objet de classe "département".
 #' - Elle calcule les statistiques en utilisant les dates de naissance pour déterminer l'âge des élus.
 #' - Les résultats sont affichés directement dans la console avec print().
